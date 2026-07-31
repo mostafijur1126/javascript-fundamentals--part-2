@@ -40,3 +40,7 @@ const def = function (birthYear) {
 
 const age2 = def(2002);
 // console.log(age1, age2);
+
+//arrow function
+const age3 = (birthYear) => 2026 - birthYear;
+const res = age3f(2000);
