@@ -24,3 +24,19 @@ function fruitProcessor(apples, oranges) {
 
 // const appleJuice = fruitProcessor(5, 0);
 // console.log(appleJuice);
+
+//function declaration vs expressi ons
+
+//functin declaration
+function abc(birthYear) {
+  return 2026 - birthYear;
+}
+const age1 = abc(2000);
+
+//function expression
+const def = function (birthYear) {
+  return 2026 - birthYear;
+};
+
+const age2 = def(2002);
+// console.log(age1, age2);
