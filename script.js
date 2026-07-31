@@ -43,4 +43,18 @@ const age2 = def(2002);
 
 //arrow function
 const age3 = (birthYear) => 2026 - birthYear;
-const res = age3f(2000);
+const res = age3(2000);
+
+// function cslling other function
+function fruitCutting(fruit) {
+  return fruit * 4;
+}
+
+function fruitProcessor(apples, oranges) {
+  const applesPicces = fruitCutting(apples);
+  const orangesPicces = fruitCutting(oranges);
+  const juice = `juice with ${applesPicces} apple ane ${orangesPicces} oranges.`;
+  return juice;
+}
+
+console.log(fruitProcessor(2, 3));
