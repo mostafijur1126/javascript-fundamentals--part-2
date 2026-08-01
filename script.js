@@ -62,4 +62,11 @@ function fruitProcessor(apples, oranges) {
 //arrays
 const friends = ["Michael", "Steven", "Peter"];
 friends[1] = "Jay";
-console.log(friends);
+// console.log(friends);
+
+//array methods
+// friends.push("Jay");
+// friends.push("MINU", "Mostafijur");
+// const newarr = friends.pop();
+// friends.unshift("John");
+// console.log(friends);
