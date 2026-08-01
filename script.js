@@ -57,4 +57,9 @@ function fruitProcessor(apples, oranges) {
   return juice;
 }
 
-console.log(fruitProcessor(2, 3));
+// console.log(fruitProcessor(2, 3));
+
+//arrays
+const friends = ["Michael", "Steven", "Peter"];
+friends[1] = "Jay";
+console.log(friends);
