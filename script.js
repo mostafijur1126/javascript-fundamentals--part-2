@@ -70,3 +70,30 @@ friends[1] = "Jay";
 // const newarr = friends.pop();
 // friends.unshift("John");
 // console.log(friends);
+
+//objects
+const jonas = {
+  firstName: "Jonas",
+  lastName: "Schmedtmann",
+  birthYear: 1991,
+  job: "teacher",
+  friends: ["Michael", "Peter", "Steven"],
+};
+
+// const interest = prompt(
+//   "What do you want to know about Jonas? Choose between firstName, lastName, birthday, job, and friends",
+// );
+// if (jonas[interest]) {
+//   console.log(jonas[interest]);
+// } else {
+//   console.log(
+//     "Wrong request! Choose between firstName, lastName, age, job, and friends",
+//   );
+// }
+
+jonas.location = "Portugal";
+jonas["twitter"] = "@jonasschmedtman";
+// console.log(jonas);
+
+const jonasInfo = `${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`;
+console.log(jonasInfo);
