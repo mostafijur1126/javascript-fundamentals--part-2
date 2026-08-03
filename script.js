@@ -91,11 +91,11 @@ friends[1] = "Jay";
 //   );
 // }
 
-jonas.location = "Portugal";
-jonas["twitter"] = "@jonasschmedtman";
+// jonas.location = "Portugal";
+// jonas["twitter"] = "@jonasschmedtman";
 // console.log(jonas);
 
-const jonasInfo = `${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`;
+// const jonasInfo = `${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`;
 // console.log(jonasInfo);
 
 const jonas = {
@@ -104,4 +104,19 @@ const jonas = {
   birthYear: 1991,
   job: "teacher",
   friends: ["Michael", "Peter", "Steven"],
+  hasDriversLicense: true,
+
+  callage: function () {
+    this.age = 2026 - this.birthYear;
+    return this.age;
+  },
+
+  getSummary: function () {
+    return `${this.firstName} is a ${this.callage()} year old ${this.job}. and he has ${this.hasDriversLicense ? "a" : "no"} driver's license`;
+  },
 };
+// console.log(jonas.callage());
+// console.log(jonas);
+
+//challenge
+console.log(jonas.getSummary());
