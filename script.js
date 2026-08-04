@@ -154,6 +154,40 @@ const jonas = {
 // }
 
 //Loops
-for (let i = 1; i <= 10; i++) {
-  console.log(`i love coding ${i}`);
-}
+// const arr = ["apple", "banana", "mango", "orange"];
+// const typs = [];
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i], typeof arr[i]);
+//   // typs[i] = typeof arr[i];
+
+//   typs.push(arr[i]);
+// }
+// console.log(typs);
+
+// const birthYear = [1995, 1990, 2007, 2004, 2000];
+// let age = [];
+// for (let i = 0; i < birthYear.length; i++) {
+//   age.push(2026 - birthYear[i]);
+// }
+// console.log(age);
+
+//break and continue
+
+const jonas2 = [
+  "Jonas",
+  "Schedtmann",
+  2026 - 2000,
+  "teacher",
+  ["Michael", "Peter", "Steven"],
+  true,
+];
+
+// for (let i = 0; i < jonas2.length; i++) {
+//   if (typeof jonas2[i] !== "string") continue;
+//   console.log(jonas2[i], typeof jonas2[i]);
+// }
+
+// for (let i = 0; i < jonas2.length; i++) {
+//   if (typeof jonas2[i] === "number") break;
+//   console.log(jonas2[i], typeof jonas2[i]);
+// }
