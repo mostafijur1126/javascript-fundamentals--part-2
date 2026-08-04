@@ -200,3 +200,10 @@ const jonas = [
   ["Michael", "Peter", "Steven"],
   true,
 ];
+
+for (let i = 1; i < 4; i++) {
+  // console.log(`Excercese ${i}`);
+  for (let j = 1; j < 6; j++) {
+    console.log(`Excerse ${i}: Felting weight up ${j}`);
+  }
+}
