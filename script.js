@@ -98,23 +98,23 @@ friends[1] = "Jay";
 // const jonasInfo = `${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`;
 // console.log(jonasInfo);
 
-const jonas = {
-  firstName: "Jonas",
-  lastName: "Schmedtmann",
-  birthYear: 1991,
-  job: "teacher",
-  friends: ["Michael", "Peter", "Steven"],
-  hasDriversLicense: true,
+// const jonas = {
+//   firstName: "Jonas",
+//   lastName: "Schmedtmann",
+//   birthYear: 1991,
+//   job: "teacher",
+//   friends: ["Michael", "Peter", "Steven"],
+//   hasDriversLicense: true,
 
-  callage: function () {
-    this.age = 2026 - this.birthYear;
-    return this.age;
-  },
+//   callage: function () {
+//     this.age = 2026 - this.birthYear;
+//     return this.age;
+//   },
 
-  getSummary: function () {
-    return `${this.firstName} is a ${this.callage()} year old ${this.job}. and he has ${this.hasDriversLicense ? "a" : "no"} driver's license`;
-  },
-};
+//   getSummary: function () {
+//     return `${this.firstName} is a ${this.callage()} year old ${this.job}. and he has ${this.hasDriversLicense ? "a" : "no"} driver's license`;
+//   },
+// };
 // console.log(jonas.callage());
 // console.log(jonas);
 
@@ -173,14 +173,14 @@ const jonas = {
 
 //break and continue
 
-const jonas2 = [
-  "Jonas",
-  "Schedtmann",
-  2026 - 2000,
-  "teacher",
-  ["Michael", "Peter", "Steven"],
-  true,
-];
+// const jonas2 = [
+//   "Jonas",
+//   "Schedtmann",
+//   2026 - 2000,
+//   "teacher",
+//   ["Michael", "Peter", "Steven"],
+//   true,
+// ];
 
 // for (let i = 0; i < jonas2.length; i++) {
 //   if (typeof jonas2[i] !== "string") continue;
@@ -191,3 +191,12 @@ const jonas2 = [
 //   if (typeof jonas2[i] === "number") break;
 //   console.log(jonas2[i], typeof jonas2[i]);
 // }
+
+const jonas = [
+  "Jonas",
+  "Schedtmann",
+  2026 - 2000,
+  "teacher",
+  ["Michael", "Peter", "Steven"],
+  true,
+];
