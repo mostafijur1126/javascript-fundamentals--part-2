@@ -152,3 +152,8 @@ const jonas = {
 //     `${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s (${mark.bmi})!`,
 //   );
 // }
+
+//Loops
+for (let i = 1; i <= 10; i++) {
+  console.log(`i love coding ${i}`);
+}
